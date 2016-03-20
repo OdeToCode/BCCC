@@ -1,7 +1,16 @@
 {
-    "name": "BCCC",
-    "version": "1.0.0",
-    "private": true,
+  "name": "BCCC",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {},
+  "jspm": {
     "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.1.4",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.1.4",
+      "bootstrap": "github:twbs/bootstrap@^3.3.6"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
     }
+  }
 }
